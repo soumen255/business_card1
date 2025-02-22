@@ -1,0 +1,63 @@
+.avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 70%;
+
+    border: 2px solid #290628;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+
+
+
+}
+
+.avatar {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.avatar img:hover {
+    transform: scale(1.1);
+    /* Increases size by 10% */
+}
+
+.avatar img {
+    width: 300px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.avatar img:hover {
+    opacity: 0.6;
+    /* Fades image on hover */
+}
+
+
+
+.card {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 40px auto;
+    align-items: center;
+    border-radius: 10px;
+    gap: 20px;
+    max-width: 400px;
+    border-bottom: 5px solid #008080;
+    background-color: #ffccd5;
+
+
+
+
+    /*
+    Challenge:
+    Add horizontal space around the flex children.
+    Hint: google "justify content"
+    */
+
+}
